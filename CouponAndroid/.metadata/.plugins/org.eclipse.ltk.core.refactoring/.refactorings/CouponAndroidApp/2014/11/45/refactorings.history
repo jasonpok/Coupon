@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/CouponAndroidApp/res/layout/favoritelist_layout.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/CouponAndroidApp" sel-end="7838" sel-start="0" stamp="1415098090932" type="android.widget.RelativeLayout"/>
+</session>

@@ -1,0 +1,9 @@
+INDEX VERSION 1.126+E:\AndroidDevelopment\CouponAndroid\.metadata\.plugins\org.eclipse.jdt.core
+299986290.index
+8235338.index
+3515282563.index
+3559371633.index
+1964792233.index
+996204236.index
+1966871300.index
+2526359753.index

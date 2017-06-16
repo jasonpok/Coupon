@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="activity_margin_15">15dp</dimen>
+	<dimen name="activity_margin_10">10dp</dimen>
+	<dimen name="activity_margin_5">5dp</dimen>
+	
+	<!-- Text dimension -->
+	<dimen name="text_size_5">5sp</dimen>
+	<dimen name="text_size_10">6sp</dimen>
+	<dimen name="text_size">18sp</dimen>
+	
+	<dimen name="coupon_width">230dp</dimen>
+	<dimen name="coupon_height">205dp</dimen>
+	<dimen name="coupon_description_height">43dp</dimen>
+	
+	<dimen name="coupon_thumb_width">130dp</dimen>
+	<dimen name="coupon_thumb_height">120dp</dimen>
+	
+	<dimen name="coupon_thumb_width_lg">200dp</dimen>
+	<dimen name="coupon_thumb_height_lg">190dp</dimen>
+	
+	<dimen name="coupon_thumb_width_sw600">255dp</dimen>
+	<dimen name="coupon_thumb_height_sw600">245dp</dimen>
+	
+	<dimen name="coupon_thumb_width_sw720">345dp</dimen>
+	<dimen name="coupon_thumb_height_sw720">335dp</dimen>
+	
+</resources>

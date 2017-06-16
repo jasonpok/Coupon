@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical" >
+        
+			<TextView
+	                android:id="@+id/pageNoText"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="3"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:gravity="right|center_vertical" >
+	
+	            
+	            <ImageView
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_marginRight="3dp"
+	                android:background="@drawable/likeicon"
+	                android:contentDescription="@null" />
+	
+	            <TextView
+	                android:id="@+id/liketext"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="3dp"
+	                android:text="1000 "
+	                android:textColor="#ffffff"
+	                android:textSize="17sp" />
+	
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="likes"
+	                android:textColor="#ffffff"
+	                android:textSize="17sp" />
+	        </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="5dp" >
+
+                <ImageView
+                    android:id="@+id/leftarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arrow_left"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/coupon_width"
+                android:layout_height="@dimen/coupon_height"
+                
+                 >
+                
+                <ImageView
+                    android:id="@+id/image_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/imgbg"
+                     />
+
+                <ImageView
+                    android:id="@+id/list_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="20dp"
+                    android:contentDescription="@null"
+                     />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp" >
+
+                <ImageView
+                    android:id="@+id/rightarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arrow_right" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+             >
+
+            <TextView
+                android:id="@+id/couponnumber"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_horizontal"
+                android:text="123456"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/usercomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:gravity="center_vertical|right"
+                android:text="xyz"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/share" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/send" />
+
+            <Button
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/like" />
+
+            <Button
+                android:id="@+id/addtofav"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/addtofav" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

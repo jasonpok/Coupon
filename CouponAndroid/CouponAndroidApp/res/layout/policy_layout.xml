@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_margin_5"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="140dp"
+            android:layout_height="39dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_text_phone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/policy_bg"
+        android:orientation="horizontal"
+        android:weightSum=".1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:fillViewport="true" >
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    
+                    android:layout_marginBottom="0dp"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="#000000" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp" >
+
+        <Button
+            android:id="@+id/favlistbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/favorite"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/policybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/policy_red"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/mapbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/storelocator"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/shoponline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/shop"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/close_button" />
+
+</RelativeLayout>

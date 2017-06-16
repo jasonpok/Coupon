@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.ps.coupon.HomeView"/>
+<fullyQualifiedTypeName name="org.apache.http.params.HttpConnectionParams"/>
+<fullyQualifiedTypeName name="com.ps.coupon.CommonUtilities"/>
+<fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
+<fullyQualifiedTypeName name="com.entropy.slidingmenu2.R.id"/>
+<fullyQualifiedTypeName name="com.ps.favoritelist.FavoriteListView"/>
+<fullyQualifiedTypeName name="com.ps.coupon.MainView"/>
+<fullyQualifiedTypeName name="com.ps.helper.JSONParser"/>
+<fullyQualifiedTypeName name="com.ps.helper.WebServices"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.json.JSONArray"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="com.ps.util.Common"/>
+<fullyQualifiedTypeName name="android.os.AsyncTask"/>
+<fullyQualifiedTypeName name="com.ps.db.DbHelper"/>
+</qualifiedTypeNameHistroy>
